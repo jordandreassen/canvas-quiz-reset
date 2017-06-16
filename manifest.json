@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Canvas Quiz Reset",
+  "description": "This extension allows you to reset a previously completed quiz to re-do for studying",
+  "version": "0.1.0",
+  
+  "content_scripts": [{
+	"css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://canvas.auckland.ac.nz/*/*/quizzes/*"]
+  }]
+}
